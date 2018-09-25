@@ -1,5 +1,7 @@
 export default class Board {
   constructor() {
-    console.log('constructor');
+    this.rows = 6;
+    this.columns = 7;
+    this.spaces = [];
   }
 }

@@ -1,7 +1,8 @@
 export default class Space {
-  constructor(taken, color) {
-    this.isTaken = false;
-    this.color = 'black';
-    this.takeSpace = () => console.log('take this space');
+  constructor(x, y) {
+    this.x = x;
+    this.y = y;
+    this.id = `space-${x}-${y}`;
+    this.token = null;
   }
 }
