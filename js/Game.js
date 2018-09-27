@@ -14,4 +14,8 @@ export default class Game {
       new Player('Player 2', 2, '#e59a13')
     ];
   }
+
+  startGame() {
+
+  }
 }
